@@ -1,3 +1,15 @@
+
+## Application Development Procedures
+
+1. CD into the application root directory
+2. Run un cp .env.example .env
+3. Inside .env file, setup database configurations
+4. Run composer install
+5. Run php artisan key:generate command
+6. Run php artisan migrate:fresh --seed command
+7. Run php artisan serve command
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
